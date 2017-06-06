@@ -1,0 +1,12 @@
+﻿  TSM.cpp
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(9): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(11): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(34): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(53): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(81): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(84): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(93): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(116): warning C4018: '<': signed/unsigned mismatch
+d:\.coding\c++\sdizo_zadanie_3\sdizo_zadanie_3\tsm.cpp(127): warning C4018: '<': signed/unsigned mismatch
+  SDiZO_Zadanie_3.vcxproj -> D:\.Coding\C++\SDiZO_Zadanie_3\SDiZO_Zadanie_3\Debug\SDiZO_Zadanie_3.exe
+  SDiZO_Zadanie_3.vcxproj -> D:\.Coding\C++\SDiZO_Zadanie_3\SDiZO_Zadanie_3\Debug\SDiZO_Zadanie_3.pdb (Full PDB)

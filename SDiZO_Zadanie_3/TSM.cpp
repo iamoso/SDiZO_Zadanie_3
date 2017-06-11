@@ -10,11 +10,14 @@ TSM::TSM()
 	{
 		for (int j = 0; j < distancesMatrix[i].size(); j++)
 		{
-			cout << distancesMatrix[i][j] << " ";
+			cout << setw(4) << distancesMatrix[i][j] << " ";
 		}
 		cout << endl;
 	}
+
+	cout << endl << "Przeglad zupelny" << endl << endl;
 	RunBruteForce();
+	cout << endl << "Alogrytm zachlanny" << endl << endl;
 	RunGreedyAlgorithm();
 }
 
@@ -49,7 +52,7 @@ void TSM::RunBruteForce()
 	} while (next_permutation(permutation.begin() + 1, permutation.end()));
 	
 	minimumPermutation.push_back(0);
-	cout << endl << endl << "Minimalny koszt: " << cost << endl;
+	cout << "Minimalny koszt: " << cost << endl;
 	for (int i = 0; i < minimumPermutation.size(); i++)
 	{
 		cout << minimumPermutation[i] << " ";
@@ -112,7 +115,7 @@ void TSM::RunGreedyAlgorithm()
 
 	cost = CalculateCost(minimumPermutation);
 	minimumPermutation.push_back(0);
-	cout << endl << endl << "Minimalny koszt: " << cost << endl;
+	cout << "Minimalny koszt: " << cost << endl;
 	for (int i = 0; i < minimumPermutation.size(); i++)
 	{
 		cout << minimumPermutation[i] << " ";

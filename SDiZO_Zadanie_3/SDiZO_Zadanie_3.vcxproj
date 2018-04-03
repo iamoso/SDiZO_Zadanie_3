@@ -142,11 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="TSM.h" />
+    <ClInclude Include="Sack.h" />
+    <ClInclude Include="TSP.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Sack.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="TSM.cpp" />
+    <ClCompile Include="TSP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

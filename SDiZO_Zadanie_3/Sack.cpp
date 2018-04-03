@@ -3,7 +3,7 @@
 Sack::Sack()
 {
 	string name;
-	cout << "Wprowadz nazwe pliku: ";
+	cout << "Wprowadz nazwe pliku dla problemu plecakowego: ";
 	cin >> name;
 	ReadFromFile(name);
 	cout << endl << endl << "Ilosc przedmiotow: " << itemsQuantity << endl;

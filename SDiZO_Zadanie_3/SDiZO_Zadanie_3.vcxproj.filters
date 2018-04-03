@@ -15,15 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TSM.h">
+    <ClInclude Include="Sack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TSM.cpp">
+    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Sack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TSP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
